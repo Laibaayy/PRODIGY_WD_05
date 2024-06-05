@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@300&display=swap');
+
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body{
+background-image: url("https://images.unsplash.com/photo-1496450681664-3df85efbd29f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80");
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+height: 100vh;
+}
+.time {
+    font-size: 50px;
+    font-weight: 100;
+}
+#input {
+    width: 21rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 17px;
+    padding: 4px;
+    margin-top: 1rem;
+}
+
+button {
+    height: 2.8rem;
+    width: 3rem;
+    font-size: 18px;
+    margin-top: 1rem;
+}
+
+.box1{
+    display: flex;
+}
+.container{
+    padding: 20px 70px;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.timezone{
+    font-size: 30px;
+    font-weight: 200;
+}
+.timezone2{
+    font-size: 30px;
+        font-weight: 200;
+}
+
+.date{
+    font-size: 30px;
+        font-weight: 400;
+    }
+.item{
+display: flex;
+    justify-content: space-between;
+    /* width: 20rem; */
+}
+
+.box2 {
+    background-color: rgba(24, 24, 27, 0.6);
+    width: 40vw;
+    padding: 20px;
+    border-radius: 11px;
+    margin: 10px 0;
+    border: 1px solid white;
+}
+.futureForcast {
+    background-color: rgba(24, 24, 27, 0.6);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    bottom: 0;
+}
+.weather-foracst-week{
+border: 2px solid white;
+    width: 13rem;
+    border-radius: 10px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.weather-forcast{
+  display: flex;
+  }
+
+.today{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.today .day{
+    background-color: #3c3c44;padding: 10px;
+    border-radius: 50px;
+    width: 7rem;
+    text-align: center;
+    margin: 0px 4px;
+}
+.today .deg {
+    padding: 10px;
+}
+
+.weather-forcast .weather-foracst-week{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 15px;
+}
+.weather-foracst-week .day{
+    background-color: #3c3c44;
+        padding: 10px;
+        border-radius: 50px;
+        width: 8rem;
+        text-align: center;
+        margin: 0px 10px;
+}
+
+.box3{
+    display: flex;
+}
+
+

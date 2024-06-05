@@ -1,0 +1,47 @@
+@media only screen and (max-width: 1200px) {
+    .time {
+        font-size: 50px;
+    }
+    
+    .ampm {
+    
+        font-size: 25px;
+    }
+
+    .flex {
+        display: flex;
+      flex-direction: column;
+    
+    }
+    
+    .timezone {
+        font-size: 30px;
+    }
+    
+    .country {
+        font-weight: bold;
+        font-size:15px;
+    }
+    
+    .date {
+        font-size: 20px;
+    }
+    
+    
+    
+    .item {
+        width: 100%;
+       
+    }
+    
+    .futureForcast {
+      align-items: none;
+       justify-content: start;
+       overflow-y: scroll;
+       
+    }
+    
+ 
+    
+   
+}
